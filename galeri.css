@@ -12,6 +12,13 @@ body {
     justify-items: center;
 }
 
+@media (min-width: 300px){
+    .Paving-container{
+        grid-template-columns: repeat(2, 1fr) ;
+        justify-content: center;
+    }
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -68,3 +75,4 @@ body {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
